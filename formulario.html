@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios Registro</title>
+</head>
+<body>
+    
+    <img src="img/logo-mision.png" alt="" width="80">
+    <h2>Formulario de Registro</h2>
+    <hr>
+    <form action="/registro" method="get">
+        <p>Nombre: <input type="text" name="nombre" maxlength="50">
+            <label for="a">*Datos Incompletos</label>
+        </p>
+
+        <p>Apellido: <input type="text" name="apellido" maxlength="50"></p>
+        <p>Usuario: <input type="text" name="user" maxlength="15"></p>
+        <p>
+            Sexo: <input type="radio" name="sexo" value="F">Femenino
+            <input type="radio" name="sexo" value="M">Masculino
+        </p>
+
+        <p>Password: <input type="password" name="pass"></p>
+
+        <p>
+            <input type="checkbox" name="condicion">He Leido y Acepto los Terminos 
+            
+        </p>
+
+        <button type="submit" value="enviar">Enviar</button>
+        <label for="a">Soy una Etiqueta</label>
+
+
+    </form>
+
+    
+</body>
+</html>

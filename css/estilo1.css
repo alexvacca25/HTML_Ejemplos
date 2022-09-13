@@ -1,0 +1,27 @@
+
+h1{
+    color: blue;
+    text-align: center;
+    font-family: Tahoma;
+}
+h2{
+   color: black;
+   font-family: Impact; 
+   font-size: 30px;
+}
+body{
+    background-color: #D0D3D4 ;
+}
+div{
+    background-color: burlywood;
+    text-align: center;
+}
+
+.verde{
+    background-color: #A3E4D7;
+}
+
+.izquierda{
+    text-align: left;
+}
+
